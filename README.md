@@ -1,1 +1,1 @@
-# Ludo-Game
+Ludo Game

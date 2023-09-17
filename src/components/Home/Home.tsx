@@ -11,7 +11,12 @@ const Home = () => {
           <h1 className="text-3xl text-center font-mono">
             Play the Ludo game with your friends
           </h1>
-          <button className=" mt-32 bg-black w-fit px-6 py-2 rounded-lg">
+          <button
+            className=" mt-32 bg-black w-fit px-6 py-2 rounded-lg"
+            onClick={() => {
+              navigate("game");
+            }}
+          >
             Play Now
           </button>
         </div>

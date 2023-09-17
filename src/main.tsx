@@ -11,6 +11,7 @@ import Layout from "./Layout";
 import Home from "./components/Home/Home";
 import Contact from "./components/Contact/Contact";
 import About from "./components/About/About";
+import Game from "./components/Game/Game";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -18,6 +19,7 @@ const router = createBrowserRouter(
       <Route path="" element={<Home />} />
       <Route path="about" element={<About />} />
       <Route path="contact" element={<Contact />} />
+      <Route path="game" element={<Game />} />
     </Route>
   )
 );
